@@ -1217,6 +1217,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 86.36) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab82ff5-cf15-4057-a69e-de220b49ac1d")
+	)
+	(wire
+		(pts
 			(xy 133.35 87.63) (xy 140.97 87.63)
 		)
 		(stroke
@@ -1244,6 +1254,18 @@
 			(type default)
 		)
 		(uuid "fee1fd23-b985-4521-a8bd-b0bcbb6bbb09")
+	)
+	(hierarchical_label "power_supply"
+		(shape input)
+		(at 119.38 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "af362149-313c-431e-ba11-02550833fe36")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1444,6 +1466,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5VA")
+		(at 140.97 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3dd13190-934b-478b-90f3-42b955012780")
+		(property "Reference" "#PWR014"
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V5"
+			(at 140.97 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 140.97 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5fa95ea-1927-4a8e-9b32-c2e534f44764")
+		)
+		(instances
+			(project "pedal_kicad"
+				(path "/bd4452a8-79f4-4b4d-9e93-32f91c7e59e8/483bf78b-dfb8-4148-a581-618010db7df4"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 86.36 67.31 0)
 		(unit 1)
@@ -1589,7 +1677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5005ce22-c665-4f20-9f40-9e1a9cfd0164")
-		(property "Reference" "TP5"
+		(property "Reference" "TP1"
 			(at 151.13 96.5199 90)
 			(effects
 				(font
@@ -1598,7 +1686,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3V3 TP"
+		(property "Value" "GND TP"
 			(at 151.13 99.0599 90)
 			(effects
 				(font
@@ -1640,7 +1728,7 @@
 		(instances
 			(project "pedal_kicad"
 				(path "/bd4452a8-79f4-4b4d-9e93-32f91c7e59e8/483bf78b-dfb8-4148-a581-618010db7df4"
-					(reference "TP5")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -2190,7 +2278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83037e32-11e8-4350-b968-ec4ef44ae5ae")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 151.13 86.3599 90)
 			(effects
 				(font
@@ -2199,7 +2287,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3V3 TP"
+		(property "Value" "1V6 TP"
 			(at 151.13 88.8999 90)
 			(effects
 				(font
@@ -2241,7 +2329,7 @@
 		(instances
 			(project "pedal_kicad"
 				(path "/bd4452a8-79f4-4b4d-9e93-32f91c7e59e8/483bf78b-dfb8-4148-a581-618010db7df4"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -2402,7 +2490,7 @@
 				)
 			)
 		)
-		(property "Value" "300"
+		(property "Value" "100k"
 			(at 133.35 82.55 90)
 			(effects
 				(font
@@ -2538,7 +2626,7 @@
 				)
 			)
 		)
-		(property "Value" "300"
+		(property "Value" "50k"
 			(at 133.35 92.71 90)
 			(effects
 				(font
@@ -2798,7 +2886,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db029170-fccf-4144-963e-e5fbf2cdcff8")
-		(property "Reference" "TP1"
+		(property "Reference" "TP3"
 			(at 151.13 76.1999 90)
 			(effects
 				(font
@@ -2807,7 +2895,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3V3 TP"
+		(property "Value" "5V TP"
 			(at 151.13 78.7399 90)
 			(effects
 				(font
@@ -2849,7 +2937,7 @@
 		(instances
 			(project "pedal_kicad"
 				(path "/bd4452a8-79f4-4b4d-9e93-32f91c7e59e8/483bf78b-dfb8-4148-a581-618010db7df4"
-					(reference "TP1")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -3120,73 +3208,6 @@
 			(project "pedal_kicad"
 				(path "/bd4452a8-79f4-4b4d-9e93-32f91c7e59e8/483bf78b-dfb8-4148-a581-618010db7df4"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 187.96 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef7e395e-21a9-4f97-a33c-d25605d450e8")
-		(property "Reference" "TP2"
-			(at 193.04 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3V3 TP"
-			(at 193.04 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 187.96 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ebcc8c1-9bf7-495d-8e4c-1a2be59b7863")
-		)
-		(instances
-			(project "pedal_kicad"
-				(path "/bd4452a8-79f4-4b4d-9e93-32f91c7e59e8/483bf78b-dfb8-4148-a581-618010db7df4"
-					(reference "TP2")
 					(unit 1)
 				)
 			)

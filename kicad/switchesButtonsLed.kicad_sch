@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7132d7ee-9bf4-42da-a820-50bcfefb63ec")
+	(paper "A4")
+	(lib_symbols)
+	(no_connect
+		(at 109.22 90.17)
+		(uuid "585bcc67-a304-40de-bd8f-def60f855a0f")
+	)
+	(no_connect
+		(at 109.22 99.06)
+		(uuid "b43b589b-4e4d-4f70-b81a-be1387bfe941")
+	)
+	(no_connect
+		(at 109.22 81.28)
+		(uuid "be1fe840-c10f-45d5-a174-febdb5e18cd9")
+	)
+)

@@ -389,6 +389,10 @@
     [
       "483bf78b-dfb8-4148-a581-618010db7df4",
       "power_supply"
+    ],
+    [
+      "392757a5-0ac7-476a-9d19-4a8c79af565e",
+      "Switches, Buttons, LED"
     ]
   ],
   "text_variables": {}
