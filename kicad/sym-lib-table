@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SF17020F-0302-21R-L-015")(type "Legacy")(uri "${KIPRJMOD}/foot switch/SF17020F-0302-21R-L-015.lib")(options "")(descr ""))
+)

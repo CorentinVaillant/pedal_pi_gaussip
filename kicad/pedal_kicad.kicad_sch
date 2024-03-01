@@ -72,6 +72,16 @@
 				(justify left top)
 			)
 		)
+		(pin "power_supply" output
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5d2aa6bc-183b-43c2-adf5-0570d3d3c79a")
+		)
 		(instances
 			(project "pedal_kicad"
 				(path "/bd4452a8-79f4-4b4d-9e93-32f91c7e59e8"

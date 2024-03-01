@@ -1256,7 +1256,7 @@
 		(uuid "fee1fd23-b985-4521-a8bd-b0bcbb6bbb09")
 	)
 	(hierarchical_label "power_supply"
-		(shape input)
+		(shape output)
 		(at 119.38 58.42 0)
 		(fields_autoplaced yes)
 		(effects
