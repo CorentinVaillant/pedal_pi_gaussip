@@ -384,7 +384,11 @@
   "sheets": [
     [
       "bd4452a8-79f4-4b4d-9e93-32f91c7e59e8",
-      "Racine"
+      "Root"
+    ],
+    [
+      "483bf78b-dfb8-4148-a581-618010db7df4",
+      "power_supply"
     ]
   ],
   "text_variables": {}
