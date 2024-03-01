@@ -6,9 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 31.75 25.4)
-		(size 80.01 87.63)
-		(fields_autoplaced yes)
+		(at 13.97 21.59)
+		(size 62.23 58.42)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -18,7 +17,7 @@
 		)
 		(uuid "483bf78b-dfb8-4148-a581-618010db7df4")
 		(property "Sheetname" "power_supply"
-			(at 31.75 24.6884 0)
+			(at 14.224 20.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +26,7 @@
 			)
 		)
 		(property "Sheetfile" "power_supply.kicad_sch"
-			(at 31.75 113.6146 0)
+			(at 13.97 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
